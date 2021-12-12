@@ -53,33 +53,19 @@ body {
 	width: 52%;
 
 	a {
-		background-color: #254a38;
 		margin: 10px;
 		&:link {
-			color: #f0f0f0;
+			margin: 10px;
+			text-align: right;
+		}
+		&:link {
+			color: #54627a;
 			text-decoration: none;
 		}
 		&:hover {
-			color: #a0c0b0;
+			color: #111822;
 			text-decoration: none;
 		}
-		&:visited {
-			color: #a0a0c0;
-			text-decoration: none;
-		}
-	}
-}
-
-#introText {
-	padding-left: 12%;
-	height: 30vw;
-	vertical-align: middle;
-	text-align: left;
-
-	& strong {
-		font-size: 2.2vw;
-		font-weight: bold;
-		vertical-align: middle;
 	}
 }
 
@@ -96,8 +82,8 @@ body {
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	
-	& > p {
+
+	& p {
 		display: inline-block;
 		padding-left: 2.5%;
 		text-align: left;
@@ -106,12 +92,18 @@ body {
 		vertical-align: middle;
 	}
 
-	&img {
+	& img {
 		margin-left: 5%;
 		vertical-align: middle;
 		display: inline-block;
 		width: 50%;
 		height: auto;
+	}
+
+	& strong {
+		font-size: 2.2vw;
+		font-weight: bold;
+		vertical-align: middle;
 	}
 }
 
