@@ -1,8 +1,124 @@
 @import "_header";
 
+// The begining of the hell is here
 body {
-	font-size:20px;
-	div {
-		font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 70%;
+	color: #111822;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #dddddd;
+
+	img {
+		vertical-align: middle;
 	}
+
+	#bgg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 49%;
+		height: 33vw;
+		background-color: #204030;
+	}
+
+	#mainBody,
+	#header {
+		position: relative;
+		z-index: 1;
+		padding: 0;
+		text-align: left;
+	}
+}
+
+#wrapper {
+	margin-top: 2.5%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	box-shadow: -3px 2px 12px rgba(0.1, 0.12, 0.24, 0.25), -12px 20px 70px rgba(0.1, 0.24, 0.16, 0.14);
+	background-color: #f0f0f0;
+}
+
+#introImg {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: auto;
+}
+
+#logoImg {
+	display: inline-block;
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#headerLabel {
+	display: inline-block;
+	margin-right: 15%;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#headerNavigation {
+	display: inline-block;
+	margin: auto;
+	width: 52%;
+	text-align: right;
+
+	a {
+		background-color: #254a38;
+		margin: 10px;
+		&:link {
+			color: #f0f0f0;
+			text-decoration: none;
+		}
+		&:hover {
+			color: #a0c0b0;
+			text-decoration: none;
+		}
+		&:visited {
+			color: #a0a0c0;
+			text-decoration: none;
+		}
+	}
+}
+
+#introText {
+	padding-left: 12%;
+	height: 30vw;
+	vertical-align: middle;
+	text-align: left;
+
+	& strong {
+		font-size: 2.2vw;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+}
+
+#nav {
+	width: 200px;
+	float: left;
+}
+#aside {
+	width: 300px;
+	float: right;
+}
+#content {
+	margin: 0 300px 0 200px;
+}
+
+#footer {
+	color: #f0f0f0;
+	clear: both;
+	padding: 8px;
+	background: #4070a0;
 }
