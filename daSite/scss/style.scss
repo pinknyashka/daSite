@@ -15,19 +15,8 @@ body {
 		vertical-align: middle;
 	}
 
-	#bgg {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 49%;
-		height: 33vw;
-		background-color: #204030;
-	}
-
 	#mainBody,
 	#header {
-		position: relative;
-		z-index: 1;
 		padding: 0;
 		text-align: left;
 	}
@@ -41,15 +30,6 @@ body {
 	width: 85%;
 	box-shadow: -3px 2px 12px rgba(0.1, 0.12, 0.24, 0.25), -12px 20px 70px rgba(0.1, 0.24, 0.16, 0.14);
 	background-color: #f0f0f0;
-}
-
-#introImg {
-	z-index: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 50%;
-	height: auto;
 }
 
 #logoImg {
@@ -71,7 +51,6 @@ body {
 	display: inline-block;
 	margin: auto;
 	width: 52%;
-	text-align: right;
 
 	a {
 		background-color: #254a38;
@@ -102,6 +81,46 @@ body {
 		font-weight: bold;
 		vertical-align: middle;
 	}
+}
+
+#introImg {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: auto;
+}
+
+#intro {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	
+	& > p {
+		display: inline-block;
+		padding-left: 2.5%;
+		text-align: left;
+		font-size: 3vw;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+
+	&img {
+		margin-left: 5%;
+		vertical-align: middle;
+		display: inline-block;
+		width: 50%;
+		height: auto;
+	}
+}
+
+#banner {
+	width: 85%;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #nav {
