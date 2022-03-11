@@ -2,6 +2,68 @@ header {
   background-color: #52b0ee;
 }
 
+#header__table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header__tableRow {
+  width: 100%;
+}
+
+#header__leftCell {
+  width: 250px;
+  text-align: left;
+}
+
+#header__rightCell {
+  text-align: right;
+  width: 250px;
+}
+
+#header__logoImage {
+  display: inline-block;
+  margin-left: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+#header__label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#header__navigation {
+  width: 100%;
+}
+
+#header__navigation a {
+  margin: 10px;
+}
+
+#header__navigation a:link {
+  margin: 10px;
+  text-align: right;
+}
+
+#header__navigation a:link {
+  color: #54627a;
+  text-decoration: none;
+}
+
+#header__navigation a:hover {
+  color: #111822;
+  text-decoration: none;
+}
+
+#header__rightImage {
+  margin-left: 0px;
+  width: 50px;
+  height: 50px;
+}
+
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -34,46 +96,6 @@ body #header {
   background-color: #f0f0f0;
 }
 
-#logoImg {
-  display: inline-block;
-  margin-left: 10px;
-  width: 50px;
-  height: 50px;
-}
-
-#headerLabel {
-  display: inline-block;
-  margin-right: 15%;
-  vertical-align: middle;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-#headerNavigation {
-  display: inline-block;
-  margin: auto;
-  width: 52%;
-}
-
-#headerNavigation a {
-  margin: 10px;
-}
-
-#headerNavigation a:link {
-  margin: 10px;
-  text-align: right;
-}
-
-#headerNavigation a:link {
-  color: #54627a;
-  text-decoration: none;
-}
-
-#headerNavigation a:hover {
-  color: #111822;
-  text-decoration: none;
-}
-
 #introImg {
   z-index: 0;
   position: absolute;
@@ -91,25 +113,23 @@ body #header {
 
 #intro p {
   display: inline-block;
-  padding-left: 2.5%;
+  padding-left: 5%;
   text-align: left;
-  font-size: 3vw;
-  font-weight: bold;
+  font-size: 1.2vw;
   vertical-align: middle;
 }
 
+#intro p strong {
+  font-size: 3.2vw;
+  font-weight: bold;
+}
+
 #intro img {
-  margin-left: 5%;
+  margin-right: 5%;
   vertical-align: middle;
   display: inline-block;
   width: 50%;
   height: auto;
-}
-
-#intro strong {
-  font-size: 2.2vw;
-  font-weight: bold;
-  vertical-align: middle;
 }
 
 #banner {
